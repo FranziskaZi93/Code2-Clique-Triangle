@@ -1,0 +1,19 @@
+All these output data are seperated by ','
+
+
+filename
+algorithm
+s
+optimum;int(bestBound) (if the ILP finished within the timelimit the optimal value is written, otherwise [lb, ub] gives a lower bound (lb) and and upper bound (ub) for the solution])
+totCPU (total time used by the algorithm)
+timeCplex (total time used by CPLEX)
+tc (percentage of time used in callbacks)
+dens (density of solution)
+gmin (minmal degree in solution)
+gmax (maximal degree in solution)
+a_cluster (alpha-cluster of a connected graph is a value such that all nodes have a  "local clustering coefficient">=alpha)
+numCallbackCalls
+numLazzyCutsInserted
+wiener (Wiener Index)
+timePreproc (time needed for preprocessing, that is, removing vertices in too few trinagles)
+prePro (three possible values: 'timeout' if the ILP did not finish within the timelimit, '0' if graph is empty after the preprocessigng phase, and '1' otherwise)

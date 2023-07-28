@@ -1,0 +1,75 @@
+In our experiments we used the following values for \ell:
+[1, 2, 3, 4, 5, 6, 7, 9, 11, 13, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 100]
+
+
+
+For our experiments we used the following graphs:
+Format: [name] [type]
+
+1-FullIns_4.col 2
+3-FullIns_3.col 2
+4-FullIns_3.col 2
+5-FullIns_3.col 2
+anna.col 2
+david.col 2
+football.graph 1
+games120.col 2
+huck.col 2
+jean.col 2
+miles500.col 2
+mug100_1.col 2
+mug100_25.col 2
+mug88_1.col 2
+polbooks.graph 1
+add20.mtx 0
+add32.mtx 0
+celegansneural.graph 1
+polblogs.graph 1
+PGPgiantcompo.graph 1
+celegans_metabolic.mtx 0
+out.adjnoun_adjacency_adjacency 0
+out.arenas-email 0
+out.arenas-jazz 0
+out.contiguous-usa 0
+out.dolphins 0
+out.moreno_zebra_zebra 0
+out.ucidata-zachary 0
+citationCiteseer.graph 1
+coAuthorsCiteseer.graph 1
+coAuthorsDBLP.graph 1
+bio-celegans-dir.edges 0
+bio-celegans.mtx 0
+bio-diseasome.mtx 0
+bio-yeast-protein-inter.edges 0
+bio-yeast.mtx 0
+bn-cat-mixed-species_brain_1.edges 0
+bn-fly-drosophila_medulla_1.edges 0
+ca-AstroPh.mtx 0
+ca-CondMat.mtx 0
+ca-CSphd.mtx 0
+ca-Erdos992.mtx 0
+ca-GrQc.mtx 0
+ca-HepPh.mtx 0
+ca-netscience.mtx 0
+ca-sandi_auths.mtx 0
+econ-beause.mtx 0
+econ-orani678.mtx 0
+inf-euroroad.edges 0
+inf-openflights.edges 0
+inf-power.mtx 0
+inf-USAir97.mtx 0
+comsol.mtx 0
+robot24c1_mat5.mtx 0
+soc-academia.txt 0
+soc-advogato.txt 0
+soc-anybeat.txt 0
+soc-brightkite.txt 0
+soc-delicious.txt 0
+soc-firm-hi-tech.txt 0
+soc-hamsterster.txt 0
+soc-twitter-follows.txt 0
+soc-wiki-Vote.txt 0
+tech-RL-caida.txt 0
+BooksEdges.txt 0
+graphAllActors.txt 0
+LesmisEdges.txt 0

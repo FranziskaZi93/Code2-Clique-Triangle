@@ -1,0 +1,16 @@
+If you enter
+   java TwoClubs t
+you see the options of our program.
+
+Here, you can an example usage of our program. text.graph is the input graph and ../data is the location of this graph.
+   java TwoClubs t ../data/test.graph 0 -t 100 -l 1 -lb 1
+   
+Alternatively, you can use the attached jar to run our program:
+   java -jar ttclub.jar t ../data/test.graph 0 -t 100 -l 1 -lb 1
+   
+0 specifies the graph format. Supported format include (0) DIMACS (1) METIS (2) DIMACS clq (edge per line but comment lines start with 'c' and edge lines with 'e' and one line starting with 'p' for number of vertices/edges) (3) edges only
+-t 100 sets the timelimit of our algorithm to 100 seconds.
+-l 1 sets \ell to 1.
+-lb 1 uses the N-LB, -lb 2 uses the N+G-LB, and lb-0 uses no lower bound. The default is lb-1.
+
+Furthermore, '-e' specifies that an edge-\ell-triangle 2-club is searched, otherwise a vertex-\ell-triangle 2-club is searched.
